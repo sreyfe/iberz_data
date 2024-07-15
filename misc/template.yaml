@@ -1,0 +1,91 @@
+---
+id:
+title:
+title_translit:
+translator:
+  -
+editions:
+  - type:
+    title:
+    publisher:
+    place:
+    year:
+    volumes:
+      - number:
+        date:
+        source:
+        source_id:
+        notes:
+keywords:
+  -
+notes:
+source:
+  title:
+  author:
+    - 
+  language:
+    -
+  links:
+    -
+  wikidata_id:
+---
+id: ytd000001
+title: די גרינדער און בויער פון יודענטום :\ אדער די געשיכטע פון דער תורה שבעל פה
+title_translit: Di grinder un boyer etc.
+translator: Schwartz, Israel Jacob
+published_in:
+  - type: book
+    title: די גרינדער און בויער פון יודענטום :\ אדער די געשיכטע פון דער תורה שבעל פה
+    title_translit: Oder di geshikhte fun der toyre shebalpe
+    publisher: Farlag Yiddish
+    place: New York
+    volumes: 1
+    date_begin: 1922
+    date_end:
+    source: nybc
+    source_id: nybc207390
+    notes:
+keywords:
+  - 
+links:
+  -
+notes:
+
+source:
+  title: דור דור ודורשיו
+  author:
+    - 
+  language:
+    - Hebrew
+  wikidata_id:
+---
+id: ytd004000
+title: דער לעבעדיגער טױטער
+title_translit: Der lebediker toyter
+translator:
+  - Leshts, Z.
+published_in:
+  - type: periodical
+    title: Forverts
+    publisher:
+    place: New York
+    volumes:
+    date_begin: 1903-01-11
+    date_end: 1903-01-13
+    source: shund.org
+    source_id: "180"
+    notes:
+keywords:
+  - 
+notes:
+
+source:
+  title: Is He Living or Is He Dead?
+  author:
+    - Mark Twain
+  language:
+    - English
+  links:
+    - https://americanliterature.com/author/mark-twain/short-story/is-he-living-or-is-he-dead/
+  wikidata_id:
+---
