@@ -1,18 +1,25 @@
 ---
+#BLANK TEMPLATE
 id:
+slug:
 title:
 title_translit:
 translator:
-  -
+  - name: 
+    name_translit:
+    wikidata:
 editions:
   - type:
     title:
     publisher:
+    publisher_translit:
     place:
     year:
     volumes:
       - number:
         date:
+        first_page:
+        last_page:
         source:
         source_id:
         notes:
@@ -20,72 +27,236 @@ keywords:
   -
 notes:
 source:
-  title:
-  author:
-    - 
-  language:
-    -
-  links:
-    -
-  wikidata_id:
----
-id: ytd000001
-title: די גרינדער און בויער פון יודענטום :\ אדער די געשיכטע פון דער תורה שבעל פה
-title_translit: Di grinder un boyer etc.
-translator: Schwartz, Israel Jacob
-published_in:
-  - type: book
-    title: די גרינדער און בויער פון יודענטום :\ אדער די געשיכטע פון דער תורה שבעל פה
-    title_translit: Oder di geshikhte fun der toyre shebalpe
-    publisher: Farlag Yiddish
-    place: New York
-    volumes: 1
-    date_begin: 1922
-    date_end:
-    source: nybc
-    source_id: nybc207390
-    notes:
-keywords:
   - 
+---
+#source
+id:
+slug:
+title:
+title_translit:
+author:
+  - 
+language:
+  -
 links:
   -
-notes:
-
-source:
-  title: דור דור ודורשיו
-  author:
-    - 
-  language:
-    - Hebrew
-  wikidata_id:
+wikidata_id:
 ---
-id: ytd004000
-title: דער לעבעדיגער טױטער
+
+#Single book, single edition, single volume
+id: ytd000659
+title: דער גולם
+title_translit: Der Golem
+translator:
+  - Zilburg, M.
+editions:
+  - type: book
+    title: Der Golem
+    publisher: B. Kletskin
+    place: Vilne
+    year: 1925
+    volumes:
+      - number: no volume
+        date:
+        first_page:
+        last_page:
+        source: nybc
+        source_id: nybc212177
+        notes:
+    notes:
+keywords: 
+  -
+notes:
+source:
+  title: Der Golem
+  author: Meyrinck, Gustav
+  language: German
+  links:
+    - https://www.projekt-gutenberg.org/meyrink/golem/index.html
+  wikidata_id: Q111239457
+---
+#Multivolume, multiedition book
+id: ytd000726
+title: משניות, מיט נקודות
+title_translit: Mishnayes, mit nikudes
+translator:
+  - Petruszka, Symcha
+editions:
+  - type: book
+    title: Mishnayes, mit nikudes
+    publisher: Gilead
+    place: New York
+    year: 1955
+    volumes:
+      - number: '3'
+        date:
+        first_page:
+        last_page:
+        source: nybc
+        source_id: nybc208720
+        notes:
+      - number: '2'
+        date:
+        first_page:
+        last_page:
+        source: nybc
+        source_id: nybc208719
+        notes:
+      - number: '6'
+        date:
+        first_page:
+        last_page:
+        source: nybc
+        source_id: nybc208723
+        notes:
+      - number: '4'
+        date:
+        first_page:
+        last_page:
+        source: nybc
+        source_id: nybc208721
+        notes:
+      - number: '1'
+        date:
+        first_page:
+        last_page:
+        source: nybc
+        source_id: nybc208718
+        notes:
+      - number: '5'
+        date:
+        first_page:
+        last_page:
+        source: nybc
+        source_id: nybc208722
+        notes:
+    notes:
+  - type: book
+    title: Mishnayes, mit nikudes
+    publisher: Gilead
+    place:
+      - New York
+      - Montreal
+    year: 1950
+    volumes:
+      - number: '3'
+        date:
+        source: nybc
+        source_id: nybc208735
+        notes:
+      - number: '2'
+        date:
+        source: nybc
+        source_id: nybc208734
+        notes:
+      - number: '6'
+        date:
+        source: nybc
+        source_id: nybc208738
+        notes:
+      - number: '5'
+        date:
+        source: nybc
+        source_id: nybc208737
+        notes:
+      - number: '1'
+        date:
+        source: nybc
+        source_id: nybc208733
+        notes:
+      - number: '4'
+        date:
+        source: nybc
+        source_id: nybc208736
+        notes:
+keywords:
+  -
+notes:
+source:
+  title: משנה
+  author: unknown
+  language: Hebrew
+  links:
+    -
+  wikidata_id: Q191825
+---
+#item in anthology
+id: ytdXXXXXX
+title: די מוטער.
+title_translit: Di muter
+translator:
+  - Der Nister
+editions:
+  - type: anthology
+    title: Mayselekh mit ilustratsyes
+    publisher: Kultur lige
+    place: Warsaw
+    year: 1921
+    volumes:
+      - number:
+        date:
+        first_page: 3 (4)
+        last_page: 12 (14)
+        source: nybc
+        source_id: nybc205768
+        notes:
+keywords:
+  - 
+notes:
+source:
+  title: Historien om en Moder
+  author: 
+    - Hans Christian Andersen
+  language:
+    - Danish
+  links:
+    -
+  wikidata_id: Q3496170
+---
+#multiissue newspaper
+id: ytdXXXXXX
+title: דער לעבעדיגער טויטער 
 title_translit: Der lebediker toyter
 translator:
-  - Leshts, Z.
-published_in:
+  - Z. Leshts
+editions:
   - type: periodical
     title: Forverts
     publisher:
     place: New York
+    year: 1903
     volumes:
-    date_begin: 1903-01-11
-    date_end: 1903-01-13
-    source: shund.org
-    source_id: "180"
-    notes:
+      - number: 
+        date: 1903-01-11
+        first_page: 5
+        last_page:
+        source: shund.org
+        source_id: 861
+        notes:
+      - number: 
+        date: 1903-01-12
+        first_page: 5
+        last_page:
+        source: shund.org
+        source_id: 864
+        notes:
+      - number: 
+        date: 1903-01-13
+        first_page: 5
+        last_page:
+        source: shund.org
+        source_id: 865
+        notes:
 keywords:
-  - 
+  -
 notes:
-
 source:
-  title: Is He Living or Is He Dead?
+  title: Is he Living or is he Dead?
   author:
     - Mark Twain
   language:
     - English
   links:
-    - https://americanliterature.com/author/mark-twain/short-story/is-he-living-or-is-he-dead/
+    - https://english-e-reader.net/book/is-he-living-or-is-he-dead-mark-twain
   wikidata_id:
 ---
