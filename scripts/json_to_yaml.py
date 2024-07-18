@@ -1,6 +1,8 @@
 import yaml
 from internetarchive import get_item
 import json
+from unidecode import unidecode
+import re
 
 class Dumper(yaml.Dumper):
     def increase_indent(self, flow=False, *args, **kwargs):
@@ -21,6 +23,7 @@ translator:
 editions:
   - type:
     title:
+    title_translit:
     publisher:
     publisher_translit:
     place:
@@ -30,8 +33,8 @@ editions:
         date:
         first_page:
         last_page:
-        source:
-        source_id:
+        source_db:
+        source_db_id:
         notes:
 keywords:
   -
@@ -57,7 +60,7 @@ wikidata_id:
 title_raw = open("../misc/nybc_id_yiddish_title.json")
 title_json = json.load(title_raw)
 
-json_location = "../db_versions/db_2024_07_11.json"
+json_location = "../db_versions/db_2024_07_17.json"
 raw = open(json_location, "r")
 
 main_entries = {}
@@ -112,19 +115,23 @@ for item in json_object:
     else:
       o_title_key = o_title
 
-    main_slug = '_'.join(title.split()[:3]) #+ "_" + translator_key.split()[:1]
-    key = o_title_key + translator_key + publisher_key
+
+    alpha_num_title = re.sub('[^0-9a-zA-Z_]+', '', '_'.join(unidecode(title).split()[:3]))
+
+    main_slug = alpha_num_title + "_" + ''.join(unidecode(translator_key).replace(",", "").split()[:1])
+    #print(main_slug)
+    key = o_title_key + translator_key
     source_key = o_title_key + author_key
 
 
 
     if key in main_entries:
       years_listed = []
-      new_volume = {'number': volume_number, 'date': None, 'source': "nybc", 'source_id': nybc_id, 'notes': notes}
+      new_volume = {'number': volume_number, 'date': None, 'first_page': None, 'last_page': None, 'source_db': "nybc", 'source_db_id': nybc_id, 'notes': notes}
       for edition in main_entries[key]["editions"]:
         years_listed.append(edition["year"])
       if year not in years_listed:
-        main_entries[key]["editions"].append({'type': "book", 'title': title, 'publisher': publisher, 'place': place, 'year': year, 'volumes': [new_volume]})
+        main_entries[key]["editions"].append({'type': "book", 'title': yid_title, 'title_translit': title, 'publisher': None, 'publisher_translit': publisher, 'place': place, 'year': year, 'volumes': [new_volume]})
       else:
         for edition in main_entries[key]["editions"]:
           if edition['year'] == year:
@@ -132,7 +139,7 @@ for item in json_object:
 
     else:
       template["id"] = "ytd" + format(id_number, '06')
-      template["slug"]
+      template["slug"] = main_slug
       template["title"] = yid_title
       template["title_translit"] = title
       if type(translator) == list:
@@ -145,14 +152,15 @@ for item in json_object:
       else:
         template["translator"][0]["name_translit"] = translator
       template["editions"][0]["type"] = "book"
-      template["editions"][0]["title"] = title
+      template["editions"][0]["title"] = yid_title
+      template["editions"][0]["title_translit"] = title
       template["editions"][0]["publisher_translit"] = publisher
       template["editions"][0]["place"] = place
       template["editions"][0]["year"] = year
       template["editions"][0]["volumes"][0]["number"] = volume_number
       template["editions"][0]["volumes"][0]["date"] = None
-      template["editions"][0]["volumes"][0]["source"] = "nybc"
-      template["editions"][0]["volumes"][0]["source_id"] = nybc_id
+      template["editions"][0]["volumes"][0]["source_db"] = "nybc"
+      template["editions"][0]["volumes"][0]["source_db_id"] = nybc_id
       template["editions"][0]["notes"] = None
       template["keywords"] = keywords
       template["notes"] = notes

@@ -1,0 +1,22 @@
+{
+  "@context": {
+      "slug": "schema:slug",
+      "title": "schema:title",
+      "title_translit": "schema:translit",
+      "translator": "@nest",
+      "name": {
+          "@id": "schema:name",
+          "@nest": "translator"
+        }
+    },
+
+  "@id": "ytd000643",
+  "slug": "Der_Golem_Zilburg",
+  "title": "דער גולם",
+  "title_translit": "Der Golem",
+  "translator": [
+    {
+      "name": "sad"
+    }
+  ]
+}

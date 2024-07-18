@@ -11,6 +11,7 @@ translator:
 editions:
   - type:
     title:
+    title_translit:
     publisher:
     publisher_translit:
     place:
