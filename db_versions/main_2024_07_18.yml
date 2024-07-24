@@ -10044,6 +10044,36 @@
   notes:
   source:
     - ytds000297
+- id: ytd000310
+  slug: Di_Yudishe_geshikhte_R--s
+  title: 'די יודישע געשיכטע : ניי בעארבייט נאך פראפ. גרעץ און אנדערע קוועלען'
+  title_translit: Di Yudishe geshikhte nay bearbeyt nokh Prof. Grets un andere kvelen
+  translator:
+    - name:
+      name_translit: R—s, A.
+      wikidata:
+  editions:
+    - type: book
+      title: 'די יודישע געשיכטע : ניי בעארבייט נאך פראפ. גרעץ און אנדערע קוועלען'
+      title_translit: Di Yudishe geshikhte nay bearbeyt nokh Prof. Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1912
+      volumes:
+        - number: '4'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc201352
+          notes:
+      notes:
+  keywords:
+    -
+  notes:
+  source:
+    - ytds000297
 - id: ytd000311
   slug: Di_Yudishe_folksgeshikhte_unknown
   title: 'די יודישע פאלקס-געשיכטע : נאך דער פאלקסטהימליכער געשיכטע דער יודען'
@@ -10228,6 +10258,276 @@
   notes:
   source:
     - ytds000298
+- id: ytd000313
+  slug: Yudishe_geshikhte_nay_Karlinski
+  title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+  title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+  translator:
+    - name:
+      name_translit: Karlinski, Ber
+      wikidata:
+  editions:
+    - type: book
+      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1924
+      volumes:
+        - number: '3'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203544
+          notes:
+        - number: '5'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203546
+          notes:
+        - number: '4'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203545
+          notes:
+      notes:
+    - type: book
+      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1913
+      volumes:
+        - number: '5'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc201253
+          notes:
+        - number: '4'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203538
+          notes:
+        - number: '5'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203539
+          notes:
+        - number: '3'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203537
+          notes:
+        - number: '4'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc201252
+          notes:
+    - type: book
+      title: 'די יודישע געשיכטע : ניי בעארבייט נאך פראפ. גרעץ און אנדערע קוועלען'
+      title_translit: Di Yudishe geshikhte nay bearbeyt nokh Prof. Grets un andere kvelen
+      publisher:
+      publisher_translit: Velt-bibliotek
+      place: Warsaw
+      year: 1911
+      volumes:
+        - number: no volume
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc205228
+          notes:
+  keywords:
+    -
+  notes:
+  source:
+    - ytds000297
+- id: ytd000314
+  slug: Yudishe_geshikhte_nay_Leyzerovitsh
+  title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+  title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+  translator:
+    - name:
+      name_translit:
+        - Leyzerovitsh, Y. A.
+        - Karlinski, B
+      wikidata:
+    - name:
+      name_translit: Karlinski, B
+      wikidata:
+  editions:
+    - type: book
+      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1913
+      volumes:
+        - number: '2'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc201250
+          notes:
+        - number: '2'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203536
+          notes:
+      notes:
+    - type: book
+      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1924
+      volumes:
+        - number: '2'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203543
+          notes:
+  keywords:
+    -
+  notes:
+  source:
+    - ytds000297
+- id: ytd000315
+  slug: Yudishe_geshikhte_nay_Riklis
+  title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+  title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+  translator:
+    - name:
+      name_translit: Riklis, A.
+      wikidata:
+  editions:
+    - type: book
+      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1924
+      volumes:
+        - number: '6'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203547
+          notes:
+        - number: '7'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203548
+          notes:
+      notes:
+    - type: book
+      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1913
+      volumes:
+        - number: '6'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc201254
+          notes:
+        - number: '6'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203540
+          notes:
+  keywords:
+    -
+  notes:
+  source:
+    - ytds000297
+- id: ytd000316
+  slug: Yudishe_geshikhte_nay_Leyzerovitsh
+  title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+  title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+  translator:
+    - name:
+      name_translit: Leyzerovitsh, Y. A.
+      wikidata:
+  editions:
+    - type: book
+      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1913
+      volumes:
+        - number: '1'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc201249
+          notes:
+        - number: '1'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203535
+          notes:
+      notes:
+    - type: book
+      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1924
+      volumes:
+        - number: '1'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc203542
+          notes:
+  keywords:
+    -
+  notes:
+  source:
+    - ytds000297
 - id: ytd000317
   slug: vegen_materyalistishen_farshteyn_unknown
   title: וועגען מאטעריאליסטישען פארשטיין די געשיכטע
@@ -17344,19 +17644,48 @@
   notes:
   source:
     - ytds000515
+- id: ytd000544
+  slug: Yudishe_geshikhte_nay_Karlinski
+  title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+  title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+  translator:
+    - name:
+      name_translit:
+        - Karlinski, B
+        - Leyzerovitsh, Y. A.
+      wikidata:
+    - name:
+      name_translit: Leyzerovitsh, Y. A.
+      wikidata:
+  editions:
+    - type: book
+      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
+      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
+      publisher:
+      publisher_translit: B. Shimin
+      place: Warsaw
+      year: 1911
+      volumes:
+        - number: '2'
+          date:
+          first_page:
+          last_page:
+          source_db: nybc
+          source_db_id: nybc204385
+          notes:
+      notes:
+  keywords:
+    -
+  notes:
+  source:
+    - ytds000297
 - id: ytd000545
   slug: Yudishe_geshikhte_nay_Karlinski
   title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
   title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
   translator:
     - name:
-      name_translit: Karlinski, Ber
-      wikidata:
-    - name:
-      name_translit: Leyzerovitsh, Y. A.
-      wikidata:
-    - name:
-      name_translit: Riklis, A.
+      name_translit: Karlinski, B
       wikidata:
   editions:
     - type: book
@@ -17374,190 +17703,21 @@
           source_db: nybc
           source_db_id: nybc204384
           notes:
-        - number: '2'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc204385
-          notes:
       notes:
-    - type: book
-      title: 'די יודישע געשיכטע : ניי בעארבייט נאך פראפ. גרעץ און אנדערע קוועלען'
-      title_translit: Di Yudishe geshikhte nay bearbeyt nokh Prof. Grets un andere kvelen
-      publisher:
-      publisher_translit: B. Shimin
-      place: Warsaw
-      year: 1912
-      volumes:
-        - number: '4'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc201352
-          notes:
-      notes:
-    - type: book
-      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
-      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
-      publisher:
-      publisher_translit: B. Shimin
-      place: Warsaw
-      year: 1913
-      volumes:
-        - number: '1'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc201249
-          notes:
-        - number: '1'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203535
-          notes:
-        - number: '2'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc201250
-          notes:
-        - number: '2'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203536
-          notes:
-        - number: '6'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc201254
-          notes:
-        - number: '6'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203540
-          notes:
-        - number: '5'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc201253
-          notes:
-        - number: '4'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203538
-          notes:
-        - number: '5'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203539
-          notes:
-        - number: '3'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203537
-          notes:
-        - number: '4'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc201252
-          notes:
-      notes:
-    - type: book
-      title: 'יודישע געשיכטע : ניי בעארבייט נאך פראפעסאר גרעץ און אנדערע קוועלען'
-      title_translit: Yudishe geshikhte nay bearbeyt nokh Profesor Grets un andere kvelen
-      publisher:
-      publisher_translit: B. Shimin
-      place: Warsaw
-      year: 1924
-      volumes:
-        - number: '1'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203542
-          notes:
-        - number: '6'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203547
-          notes:
-        - number: '7'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203548
-          notes:
-        - number: '2'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203543
-          notes:
-        - number: '3'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203544
-          notes:
-        - number: '5'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203546
-          notes:
-        - number: '4'
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc203545
-          notes:
-      notes:
-    - type: book
-      title: 'די יודישע געשיכטע : ניי בעארבייט נאך פראפ. גרעץ און אנדערע קוועלען'
-      title_translit: Di Yudishe geshikhte nay bearbeyt nokh Prof. Grets un andere kvelen
-      publisher:
-      publisher_translit: Velt-bibliotek
-      place: Warsaw
-      year: 1911
-      volumes:
-        - number: no volume
-          date:
-          first_page:
-          last_page:
-          source_db: nybc
-          source_db_id: nybc205228
-          notes:
-      notes:
+  keywords:
+    -
+  notes:
+  source:
+    - ytds000297
+- id: ytd000546
+  slug: Di_Yudishe_geshikhte_Leyzerovitsh
+  title: 'די יודישע געשיכטע : צוזאמענגעשטעלט און בעארבייטעט נאך פר'' גרעטץ'
+  title_translit: Di Yudishe geshikhte tsuzamengeshtelt un bearbeytet nokh Pr. Gretts
+  translator:
+    - name:
+      name_translit: Leyzerovitsh, Y. L.
+      wikidata:
+  editions:
     - type: book
       title: 'די יודישע געשיכטע : צוזאמענגעשטעלט און בעארבייטעט נאך פר'' גרעטץ'
       title_translit: Di Yudishe geshikhte tsuzamengeshtelt un bearbeytet nokh Pr. Gretts
@@ -17576,7 +17736,7 @@
       notes:
   keywords:
     -
-  notes:
+  notes: Translators says Y. L. but maybe same as Y. E. above?
   source:
     - ytds000297
 - id: ytd000547
