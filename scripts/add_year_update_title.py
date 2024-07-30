@@ -12,8 +12,8 @@ with open(filename, 'r') as file:
 
 for entry in db:
   earliest_year = "unknown"
-  earliest_title = ""
-  earliest_title_translit = ""
+  earliest_title = entry["title"]
+  earliest_title_translit = entry["title_translit"]
   for edition in entry["editions"]:
     if edition["year"] == "unknown":
       if earliest_year == 0:
