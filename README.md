@@ -4,7 +4,9 @@ A more thorough description of the data will follow. For now, a few explanatory
 notes:
 
 The data is primarily kept in two 
-YAML documents: main and source. Main contains translations, source contains
+YAML documents: main and source. Versions of these documents are kept in folders,
+marked by dates, which are in the db_versions folder.
+"main" YAML's contain translations, "source" YAML's contain
 source-texts. The main YAML references source texts by their id's. 
 
 Entries in "main" each represent a single translation. Each translation can be printed
